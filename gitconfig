@@ -1,0 +1,16 @@
+[user]
+	email = edmeral.aissam@gmail.com
+	name = Aissam BELHACHMI
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+[push]
+	default = simple
+[core]
+	filemode = false
