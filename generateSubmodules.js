@@ -4,13 +4,13 @@
 
 var fs = require('fs');
 var result = "";
-var path1 = '/vim/bundle';
+var path1 = 'vim/bundle';
 
-var directories = fs.readdirSync(__dirname + path1);
+var directories = fs.readdirSync(__dirname + '/' + path1);
 for (var i in directories) {
   var directory = directories[i];
   var path2 = path1 + '/' +  directory;
-  var config = fs.readFileSync(__dirname + path2 + '/.git/config', 'utf-8');
+  var config = fs.readFileSync(__dirname + '/' +  path2 + '/.git/config', 'utf-8');
   var lines = config.split('\n');
   for (var j in lines) {
     var line = lines[j];
