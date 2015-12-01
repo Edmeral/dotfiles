@@ -1,9 +1,8 @@
 execute pathogen#infect()
 filetype plugin indent on
 syntax on
-colorscheme onedark
-set guifont=Inconsolata\ for\ Powerline:h15
-let g:Powerline_symbols = 'fancy'
+set background=dark
+colorscheme solarized
 set encoding=utf-8
 set t_Co=256
 set fillchars+=stl:\ ,stlnc:\
@@ -11,15 +10,18 @@ set term=xterm-256color
 set termencoding=utf-8
 set number
 
-set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
-set laststatus=2
+set laststatus=2 " Always display a status bar (for vim-airline)
 
-inoremap jj <ESC>
+inoremap jj <ESC> " jj instead of <ESC> for faster switching between modes
 set cursorline " Highlight the current line
 
 """ Toggle NERDTree
 map <C-n> :NERDTreeToggle<CR>
 
+""" Hide trailing spaces warning in vim-airline
+let g:airline#extensions#whitespace#enabled = 0
+
+""" Indentation settings
 set tabstop=2       " number of visual spaces per TAB
 set softtabstop=2   " number of spaces in tab when editing
 set autoindent
