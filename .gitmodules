@@ -22,3 +22,6 @@
 [submodule "vim/bundle/vim-javascript-syntax"] 
 	path = vim/bundle/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax.git
+[submodule "vim/bundle/dracula-theme"]
+	path = vim/bundle/dracula-theme
+	url = git@github.com:zenorocha/dracula-theme.git
