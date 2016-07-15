@@ -14,3 +14,4 @@
 	default = simple
 [core]
 	filemode = false
+	editor = /usr/bin/vim

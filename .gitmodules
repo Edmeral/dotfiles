@@ -19,9 +19,9 @@
 [submodule "vim/bundle/vim-jade"] 
 	path = vim/bundle/vim-jade
 	url = git://github.com/digitaltoad/vim-jade.git
-[submodule "vim/bundle/vim-javascript-syntax"] 
-	path = vim/bundle/vim-javascript-syntax
-	url = https://github.com/jelera/vim-javascript-syntax.git
-[submodule "vim/bundle/dracula-theme"]
-	path = vim/bundle/dracula-theme
-	url = git@github.com:zenorocha/dracula-theme.git
+[submodule "vim/bundle/vim-javascript"] 
+	path = vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "vim/bundle/vim-jsx"] 
+	path = vim/bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
