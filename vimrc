@@ -10,7 +10,7 @@ set term=xterm-256color
 set termencoding=utf-8
 set number
 set laststatus=2 " Always display a status bar (for vim-airline)
-"""set mouse=a " Mouse support
+set mouse=a " Mouse support
 """ jj instead of hiting <ESC>
 inoremap jj <ESC>
 
